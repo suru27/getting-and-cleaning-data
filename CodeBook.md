@@ -61,94 +61,180 @@ Following steps were followed in the tidy data file:
 
 No. of rows : 180 (30 subjects each having 6 activities captured).
 
-Variables present in the data :
+Variables present in the data (Column Name Data Type) :
 
 $ subject	int
 
 $ activity	chr
+
 $ timebodyaccelerometermean()x	num
+
 $ timebodyaccelerometermean()y	num
+
 $ timebodyaccelerometermean()z	num
+
 $ timebodyaccelerometerstandarddeviation()x	num
+
 $ timebodyaccelerometerstandarddeviation()y	num
+
 $ timebodyaccelerometerstandarddeviation()z	num
+
 $ timegravityaccelerometermean()x	num
+
 $ timegravityaccelerometermean()y	num
+
 $ timegravityaccelerometermean()z	num
+
 $ timegravityaccelerometerstandarddeviation()x	num
+
 $ timegravityaccelerometerstandarddeviation()y	num
+
 $ timegravityaccelerometerstandarddeviation()z	num
+
 $ timebodyaccelerometerjerkmean()x	num
+
 $ timebodyaccelerometerjerkmean()y	num
+
 $ timebodyaccelerometerjerkmean()z	num
+
 $ timebodyaccelerometerjerkstandarddeviation()x	num
+
 $ timebodyaccelerometerjerkstandarddeviation()y	num
+
 $ timebodyaccelerometerjerkstandarddeviation()z	num
+
 $ timebodygyroscopemean()x	num
+
 $ timebodygyroscopemean()y	num
+
 $ timebodygyroscopemean()z	num
+
 $ timebodygyroscopestandarddeviation()x	num
+
 $ timebodygyroscopestandarddeviation()y	num
+
 $ timebodygyroscopestandarddeviation()z	num
+
 $ timebodygyroscopejerkmean()x	num
+
 $ timebodygyroscopejerkmean()y	num
+
 $ timebodygyroscopejerkmean()z	num
+
 $ timebodygyroscopejerkstandarddeviation()x	num
+
 $ timebodygyroscopejerkstandarddeviation()y	num
+
 $ timebodygyroscopejerkstandarddeviation()z	num
+
 $ timebodyaccelerometermagnitudemean()	num
+
 $ timebodyaccelerometermagnitudestandarddeviation()	num
+
 $ timegravityaccelerometermagnitudemean()	num
+
 $ timegravityaccelerometermagnitudestandarddeviation()	num
+
 $ timebodyaccelerometerjerkmagnitudemean()	num
+
 $ timebodyaccelerometerjerkmagnitudestandarddeviation()	num
+
 $ timebodygyroscopemagnitudemean()	num
+
 $ timebodygyroscopemagnitudestandarddeviation()	num
+
 $ timebodygyroscopejerkmagnitudemean()	num
+
 $ timebodygyroscopejerkmagnitudestandarddeviation()	num
+
 $ frequencybodyaccelerometermean()x	num
+
 $ frequencybodyaccelerometermean()y	num
+
 $ frequencybodyaccelerometermean()z	num
+
 $ frequencybodyaccelerometerstandarddeviation()x	num
+
 $ frequencybodyaccelerometerstandarddeviation()y	num
+
 $ frequencybodyaccelerometerstandarddeviation()z	num
+
 $ frequencybodyaccelerometermeanfreq()x	num
+
 $ frequencybodyaccelerometermeanfreq()y	num
+
 $ frequencybodyaccelerometermeanfreq()z	num
+
 $ frequencybodyaccelerometerjerkmean()x	num
+
 $ frequencybodyaccelerometerjerkmean()y	num
+
 $ frequencybodyaccelerometerjerkmean()z	num
+
 $ frequencybodyaccelerometerjerkstandarddeviation()x	num
+
 $ frequencybodyaccelerometerjerkstandarddeviation()y	num
+
 $ frequencybodyaccelerometerjerkstandarddeviation()z	num
+
 $ frequencybodyaccelerometerjerkmeanfreq()x	num
+
 $ frequencybodyaccelerometerjerkmeanfreq()y	num
+
 $ frequencybodyaccelerometerjerkmeanfreq()z	num
+
 $ frequencybodygyroscopemean()x	num
+
 $ frequencybodygyroscopemean()y	num
+
 $ frequencybodygyroscopemean()z	num
+
 $ frequencybodygyroscopestandarddeviation()x	num
+
 $ frequencybodygyroscopestandarddeviation()y	num
+
 $ frequencybodygyroscopestandarddeviation()z	num
+
 $ frequencybodygyroscopemeanfreq()x	num
+
 $ frequencybodygyroscopemeanfreq()y	num
+
 $ frequencybodygyroscopemeanfreq()z	num
+
 $ frequencybodyaccelerometermagnitudemean()	num
+
 $ frequencybodyaccelerometermagnitudestandarddeviation()	num
+
 $ frequencybodyaccelerometermagnitudemeanfreq()	num
+
 $ frequencybodyaccelerometerjerkmagnitudemean()	num
+
 $ frequencybodyaccelerometerjerkmagnitudestandarddeviation()	num
+
 $ frequencybodyaccelerometerjerkmagnitudemeanfreq()	num
+
 $ frequencybodygyroscopemagnitudemean()	num
+
 $ frequencybodygyroscopemagnitudestandarddeviation()	num
+
 $ frequencybodygyroscopemagnitudemeanfreq()	num
+
 $ frequencybodygyroscopejerkmagnitudemean()	num
+
 $ frequencybodygyroscopejerkmagnitudestandarddeviation()	num
+
 $ frequencybodygyroscopejerkmagnitudemeanfreq()	num
+
 $ angle(timebodyaccelerometermean,gravity)	num
+
 $ angle(timebodyaccelerometerjerkmean),gravitymean)	num
+
 $ angle(timebodygyroscopemean,gravitymean)	num
+
 $ angle(timebodygyroscopejerkmean,gravitymean)	num
+
 $ angle(x,gravitymean)	num
+
 $ angle(y,gravitymean)	num
+
 $ angle(z,gravitymean)	num
